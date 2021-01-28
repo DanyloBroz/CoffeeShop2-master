@@ -1,0 +1,33 @@
+﻿<Window x:Class="CoffeeShop2.AboutWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeShop2"
+        mc:Ignorable="d"
+        Title="AboutWindow1" Height="450" Width="800">
+    <Grid>
+        <Grid Background="#FFF8DC">
+            <Grid.RowDefinitions>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="1" Content="About US" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontFamily="Candara" FontWeight="Normal"/>
+            <TextBlock  x:Name="text1" Grid.Column="0" Grid.Row="1"  HorizontalAlignment="Center" Text="text1" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="202"/>
+            <TextBlock  x:Name="text2" Grid.Column="2" Grid.Row="1"  HorizontalAlignment="Center" Text="text2" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="202" />
+            <TextBlock  x:Name="text3" Grid.Column="1" Grid.Row="2"  HorizontalAlignment="Center" Text="text3" TextWrapping="Wrap" VerticalAlignment="Center" Height="69" Width="202"/>
+            <TextBlock  x:Name="text4" Grid.Column="0" Grid.Row="3"  HorizontalAlignment="Center" Text="text4" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="202" />
+            <TextBlock  x:Name="text5" Grid.Column="2" Grid.Row="3"  HorizontalAlignment="Center" Text="text5" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="202"/>
+            <Image  x:Name = "logo" Source = "C:\Users\b_dobosevych\OneDrive\Desktop\CoffeeShop2\CoffeeShop2\Imagen\1.jpg" Height="177"  Grid.Row="3"  Grid.RowSpan="3" VerticalAlignment="Top" Grid.Column="0" Grid.ColumnSpan="3" Margin="-6,36,18,0"></Image>
+        </Grid>
+    </Grid>
+</Window>
